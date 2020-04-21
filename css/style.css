@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: url(../component/22589.jpg) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+.container {
+    position: relative;
+    opacity: 0.8;
+  }
+
+.portfolio {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    color:rgba(255, 255, 255, 0.555);
+    border: 2px solid  rgba(255, 255, 255, 0.555);
+    padding: 3px;
+    border-radius: 10px;
+    transition: 0.3s all linear;
+}
+
+.portfolio:hover {
+  font-size: 26px;
+}
+
+ul {
+    font-size: larger;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+    color: rgba(255, 255, 255, 0.5)
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .image {
+      float:left;
+      height: auto;
+      width: 18%;
+      margin: 10px;
+      border: 2px solid black;
+      box-shadow: 2px 2px 5px 5px rgba(29, 28, 99, 0.555);
+      transition: 0.5s all ease-in-out;
+  }
+
+  .image:hover {
+    width: 22%;
+    height: auto;
+  }
+
+  .content {
+      font-size: larger;
+      color: whitesmoke;
+      font-family: Lato, sans-serif;
+  }
+
+  .footer {
+    margin-top: 490px;
+    color: seashell;
+    background-color: rgba(0,0,0,0.5);
+    float: bottom;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

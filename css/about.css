@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: url(../component/17209.png) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    opacity: 0.8;
+  }
+
+.portfolio {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    color:rgba(255, 255, 255, 0.555);
+    border: 2px solid  rgba(255, 255, 255, 0.555);
+    padding: 3px;
+    border-radius: 10px;
+    transition: 0.3s all linear;
+}
+
+.portfolio:hover {
+  font-size: 26px;
+}
+
+.container > ul {
+    font-size: larger;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .container li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+    color: rgba(255, 255, 255, 0.5)
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .aboutme {
+    margin: 10px;
+  }
+
+  p:first-child {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .aboutme li {
+    font-size: 18px;
+    transition: 0.4s all;
+  }
+
+  .aboutme li:hover {
+    display: inline;
+    background-color: rgba(39, 35, 35, 0.5);
+  }
